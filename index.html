@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mart</title>
+</head>
+<body>
+    
+
+    <script>
+        let greating = prompt("Hey Dude! How can help you?")
+        alert("Okay lets start")
+        let mart = prompt("What do you want?\n I have Burger, BBQ, Pizza")
+        if (mart=="burger"){
+            let pizza = prompt("Which Flavor ?\n We have Zinger burger, Chiken burger, Beef burger")
+            if(pizza=="zinger burger"){
+                let zingerb = +prompt("Zinger burger price are fix 380rs")
+                let quazinger = +prompt("How much sir?")
+                let zingerprice= zingerb * quazinger;
+                alert("Your total price is " + zingerprice+"rs")
+                document.write("Congragulation your oder has been submitted\n Your price is ", + zingerprice+"rs" );
+            }else if (pizza=="chiken burger"){
+                let chikenb = +prompt("Chiken burger price are fix 230rs")
+                let quachikenb = +prompt("How much sir?")
+                let chikenbprice= chikenb * quachikenb;
+                alert("Your total price is " + chikenbprice)
+                document.write("Congragulation your oder has been submitted\n Your price is ", + chikenbprice+"rs" );
+            }else if (pizza =="beef burger"){
+                let beefb = +prompt("Beef burger price are fix 220rs")
+                let quabeef = +prompt("How much sir ?")
+                let beefprice= beefb * quabeef;
+                alert("Your total price is " + beefprice+"rs")
+                document.write("Congragulation your oder has been submitted\n Your price is ", + beefprice+"rs")
+            }
+        }
+        else if (mart=="bbq"){
+            let pizza = prompt("Which Flavor ?\n We have Chiken Tikka, Bihari tikka, Mlai boti")
+            if(pizza=="chiken tikka"){
+                let chikentik= +prompt("Chiken tikka price are fix 350rs")
+                let quachiken = +prompt("How much sir?")
+                let chikenprice= chikentik * quachiken;
+                alert("Your total price is " + chikenprice+"rs")
+                document.write("Congragulation your oder has been submitted\n Your price is ", + chikenprice+"rs" );
+            }else if (pizza=="bihari tikka"){
+                let biharib = +prompt("Bihari Tikka price are fix 320rs")
+                let bihariqua = +prompt("How much sir?")
+                let bihprice= biharib * bihariqua;
+                alert("Your total price is " + bihprice+"rs")
+                document.write("Congragulation your oder has been submitted\n Your price is ", + bihprice+"rs" );
+            }else if (pizza =="malai boti"){
+                let malaib = +prompt("Mlai boti price are fix 250rs")
+                let quamalai = +prompt("How much sir ?")
+                let malaiprice= malaib * quamalai;
+                alert("Your total price is " + malaiprice+"rs")
+                document.write("Congragulation your oder has been submitted\n Your price is ", + malaiprice+"rs")
+            }
+        }
+        else if (mart=="pizza"){
+            let pizza = prompt("Which Flavor ?\n We have Chiken fatija, BBQ, Tikka")
+            if(pizza=="chiken fatija"){
+                let pizzafat = +prompt("BBQ pizza price are fix 1000rs")
+                let quapizzafat = +prompt("How much sir?")
+                let fatprice= pizzafat * quapizzafat;
+                alert("Your total price is " + fatprice+"rs")
+                document.write("Congragulation your oder has been submitted\n Your price is ", + fatprice+"rs" );
+            }else if (pizza=="bbq"){
+                let pizbbq = +prompt("BBQ pizza price are fix 1000rs")
+                let quapizza = +prompt("How much sir?")
+                let price= pizbbq * quapizza;
+                alert("Your total price is " + price)
+                document.write("Congragulation your oder has been submitted\n Your price is ", + price+"rs" );
+            }else if (pizza =="tikka"){
+                let pizzatik = +prompt("Tikka pizza price are fix 800rs")
+                let pizzaqua = +prompt("How much sir ?")
+                let tikprice= pizzatik * pizzaqua;
+                alert("Your total price is " + tikprice+"rs")
+                document.write("Congragulation your oder has been submitted\n Your price is ", + tikprice+"rs")
+            }
+        }
+    </script>
+</body>
+</html>
